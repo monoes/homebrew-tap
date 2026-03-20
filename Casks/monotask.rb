@@ -9,9 +9,11 @@ cask "monotask" do
 
   depends_on macos: ">= :ventura"
 
-  disable_quarantine true
-
   app "Monotask.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Monotask.app"]
+  end
 
   zap trash: [
     "~/.local/share/p2p-kanban",
