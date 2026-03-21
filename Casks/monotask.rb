@@ -1,8 +1,8 @@
 cask "monotask" do
-  version "0.2.0"
-  sha256 "931ca0059db1170c5e814824c4133f1c1fc196bdc54fc7482a92b1fa7158c644"
+  version "0.3.0"
+  sha256 "fcee09c7f0f4ad53b8b8642e320a6b22b6e0dea09fbe73f34cc5013901995bb0"
 
-  url "https://github.com/nokhodian/monotask/releases/download/v#{version}/Monotask-v#{version}-aarch64.dmg"
+  url "https://github.com/nokhodian/monotask/releases/download/v0.3.0/Monotask-v0.3.0-aarch64.dmg"
   name "Monotask"
   desc "Local-first peer-to-peer kanban board with cryptographic identity"
   homepage "https://github.com/nokhodian/monotask"
@@ -12,10 +12,9 @@ cask "monotask" do
   app "Monotask.app"
 
   caveats <<~EOS
-    Monotask is not code-signed. If macOS shows "damaged and can't be opened", run:
-      find /Applications/Monotask.app -print0 | xargs -0 xattr -c
-      codesign --force --deep --sign - /Applications/Monotask.app
-    Then open the app normally.
+    Monotask is not code-signed. If macOS blocks it on first launch, run:
+      xattr -cr /Applications/Monotask.app
+    Then try opening it again.
   EOS
 
   zap trash: [
