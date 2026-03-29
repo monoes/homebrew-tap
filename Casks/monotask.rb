@@ -1,8 +1,8 @@
 cask "monotask" do
-  version "0.3.12"
-  sha256 "025ed27a0e31d35158282addb39100886198aab146f8ae505e032605449df850"
+  version "0.3.13"
+  sha256 "20430eaa11f2eb83c30e332854f993d0fb3592b1c9764e5ef6d955bd73181310"
 
-  url "https://github.com/nokhodian/monotask/releases/download/v0.3.12/Monotask-v0.3.12-aarch64.dmg"
+  url "https://github.com/nokhodian/monotask/releases/download/v0.3.13/Monotask-v0.3.13-aarch64.dmg"
   name "Monotask"
   desc "Local-first peer-to-peer kanban board with cryptographic identity"
   homepage "https://github.com/nokhodian/monotask"
