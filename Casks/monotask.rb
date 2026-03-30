@@ -1,6 +1,6 @@
 cask "monotask" do
   version "0.3.14"
-  sha256 "45a44a4eec6e8fcc8ebdfb1d154ea5461628ebce16acbca50bf87402e43a7480"
+  sha256 "75891ffc3e54522f49bda5812b3191afe6ad76439b3a0fd3bdf69d38da4863cc"
 
   url "https://github.com/nokhodian/monotask/releases/download/v0.3.14/Monotask-v0.3.14-aarch64.dmg"
   name "Monotask"
