@@ -7,17 +7,17 @@ class Monotask < Formula
   on_macos do
     on_arm do
       url "https://github.com/nokhodian/monotask/releases/download/v0.3.14/monotask-v0.3.14-aarch64-apple-darwin.tar.gz"
-      sha256 "f4290beaa44ca6f7887daf6c8530d67dccca9bce80adbfe124e81fad7c5448dc"
+      sha256 "b30d037ddeab667d97aea70809f011a311ddecab2799bc5f602d82d6a02198b3"
     end
     on_intel do
       url "https://github.com/nokhodian/monotask/releases/download/v0.3.14/monotask-v0.3.14-x86_64-apple-darwin.tar.gz"
-      sha256 "f89694a7c4739ee3105ae22f10c4f8f1a7fb5633440dec990efa76104f68bbf8"
+      sha256 "b2907f0f3ebe703c1b2293058571ce37885d9be6934f3eb251638b9035528c6e"
     end
   end
 
   on_linux do
     url "https://github.com/nokhodian/monotask/releases/download/v0.3.14/monotask-v0.3.14-x86_64-linux.tar.gz"
-    sha256 "ef34d3d608564ce6e1585dc2721e43ebba95ea2d41d4ba5de5922fce2e74bf40"
+    sha256 "cf07cd2869e5401804ca499f545ef95f0efdb9d537248f3c1a17ca9af4a01f23"
   end
 
   def install
