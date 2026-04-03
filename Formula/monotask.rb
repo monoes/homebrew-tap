@@ -1,23 +1,23 @@
 class Monotask < Formula
   desc "P2P Kanban CLI – local-first task management with collaboration"
   homepage "https://github.com/nokhodian/monotask"
-  version "0.3.21"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nokhodian/monotask/releases/download/v0.3.21/monotask-v0.3.21-aarch64-apple-darwin.tar.gz"
-      sha256 "66e445f9a5324c5cc86336451bc7952477e0000933536eb280de255f13f1255c"
+      url "https://github.com/nokhodian/monotask/releases/download/v0.4.0/monotask-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f219b5d61b87f3f929919e157ab3d71133245a260e1286c4e2ad232098be0da4"
     end
     on_intel do
-      url "https://github.com/nokhodian/monotask/releases/download/v0.3.21/monotask-v0.3.21-x86_64-apple-darwin.tar.gz"
-      sha256 "a57c55729859e2798fb86ca34748d30f1107214962d9c437a8dbec7ee7a59419"
+      url "https://github.com/nokhodian/monotask/releases/download/v0.4.0/monotask-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "90ad4c246b834d4d334ba4d177d41b47d924c2192b42f8051365d0552fc3e23b"
     end
   end
 
   on_linux do
-    url "https://github.com/nokhodian/monotask/releases/download/v0.3.21/monotask-v0.3.21-x86_64-linux.tar.gz"
-    sha256 "3350e9f739729fc116827b8bc79d277ac01f04bda45556f2d9900c694bcd694a"
+    url "https://github.com/nokhodian/monotask/releases/download/v0.4.0/monotask-v0.4.0-x86_64-linux.tar.gz"
+    sha256 "20bc58b0840d2b8450d5d611b89169e489818442b49fe2b8658d99829e2c7cf9"
   end
 
   def install
