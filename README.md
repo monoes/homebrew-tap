@@ -1,11 +1,11 @@
 # homebrew-tap
 
-Homebrew tap for [nokhodian](https://github.com/nokhodian)'s apps.
+Homebrew tap for [monoes](https://github.com/monoes)'s apps.
 
 ## Install MonoClip
 
 ```bash
-brew tap nokhodian/tap
+brew tap monoes/tap
 brew install --cask mono-clip
 ```
 
@@ -13,4 +13,4 @@ brew install --cask mono-clip
 
 | App | Description |
 |---|---|
-| [mono-clip](https://github.com/nokhodian/mono-clip) | Blazing-fast macOS clipboard manager |
+| [mono-clip](https://github.com/monoes/mono-clip) | Blazing-fast macOS clipboard manager |
