@@ -1,6 +1,6 @@
 cask "mono-clip" do
-  version "0.2.9"
-  sha256 "a68d1478158863ff105fa920875a7a308dd0ae99f270a1765450929b9a3fd3cd"
+  version "0.2.16"
+  sha256 "cc461418722cab06347f69d4ed1ebb6417f9f3edac17984088e7d36d388c7448"
 
   url "https://github.com/monoes/mono-clip/releases/download/v#{version}/MonoClip_#{version}_aarch64.dmg"
   name "MonoClip"
